@@ -81,7 +81,7 @@ public class MaximumSubarrayProblem {
 
 
    public static void main(String[] args){
-      int[] array = {1,-8,9,23,-9,-10,5,54,-34,7};
+      int[] array = {13,-3,-25,-20,-3, -16, -23, 18, 20, -7, 12, -5, -22, 15, -4, 7};
       bruteForce(array);
       System.out.println("divide-and-conquer algorithm");
       int[] result = divideAndConquer(array,0,array.length-1,0,0,0);
